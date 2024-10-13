@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Charity Web Page</title>
+    <link rel="stylesheet" href="donations.css">
+</head>
+
+<body>
+        <!--Navbar-->
+        <header>
+            <div id="header">
+                <img src="img/logo.jpg" class="img">
+                <h1><span class="highlight">RR. Charity Foundation</span></h1>
+            </div>
+            <!--Menu Icon-->
+    
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <!--Nav list-->
+            <ul class="navbar">
+                <li><a href="index.html" class="home-active">Home</a></li>
+            </ul>
+        </header>
+        <br><br><br><br><br><br><br><br><br><br><br>
+    <div class="donner">
+        <form id="fom" action="donate.php" method="post" enctype="multipart/form-data">
+            <div class="dones">
+                <h1 class="class">Which cause would you like to donate to?</h1><br>
+                   <select name="feedback" id="content">
+                    <option value="7">Food</option>
+                    <option value="6">Shelter</option>
+                    <option value="5">Clothing</option>
+                    <option value="4">Health Care</option>
+                    <option value="3">Education</option>
+                    <option value="2">Water</option>
+                    <option value="1">Accesories</option>
+                </select> <br><br>
+
+             <div class="p">
+                 <p>:please note that every penny you donate would be used in the care of these children,
+                     donate from the heart (no amount is too small).</p>
+             </div> <br>
+             <h2 class="class">How much are you donating?</h2><br>
+              <input type="number" name="donate" id="vote" placeholder="donation amount" required>
+              <br><br>
+              <div class="p">
+              <a class="method" href="buy.html">"click here to choose payment method"</a> <br><br>
+              </div>               <br>
+              <button id="open-popup-btn">Donate</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="popup center">
+        <div class="icon">
+            !
+        </div>
+        <div class="title">
+            Thank you!
+        </div>
+        <div class="description">
+            Your donation is under review, thank you for your commitment.
+        </div>
+        <div class="dismiss-btn">
+            <button id="dismiss-popup-btn"><a href="index.html">Done</a></button>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+</body>
