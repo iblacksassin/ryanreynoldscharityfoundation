@@ -594,7 +594,7 @@ li{
         font-weight: 700;  
     }
     .home{
-        background: url(img/orphan-1139038_1920.jpg) no-repeat;
+        background: url(orphan-1139038_1920.jpg) no-repeat;
         background-size: cover;
         height: 200vh;
         width: 100rem;
@@ -609,24 +609,7 @@ li{
         padding: 20px;
         font-size: 4.5rem;
     }
-    section{
-        color: white;
-        text-align: center;
-        font-size: 5rem;
-        margin-top: 14.2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background: url(img/orphan-1139038_1920.jpg) no-repeat;
-        width: 100rem;
-        height: 200vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .sect{
-        width: 95rem;
-        text-align: center;
-        margin: auto;
-    }
+
     .span{
         color: rgb(55, 119, 15);
         font-size: 6rem;
