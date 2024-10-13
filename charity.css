@@ -521,7 +521,7 @@ li{
 /* Media Queries*/
 @media (max-width: 667px) {
     header{
-        width: 97%;
+        width: 96%;
         padding: 10px;
         height: 13vh;
     }
